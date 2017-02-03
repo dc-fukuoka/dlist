@@ -1,2 +1,7 @@
 dlist - a simple doubly linked list container for strings.
 
+$ ./a.out this is a test.
+this:    0x2286010, prev:        (nil), next:    0x2286050, val: this
+this:    0x2286050, prev:    0x2286010, next:    0x2286090, val: is
+this:    0x2286090, prev:    0x2286050, next:    0x22860d0, val: a
+this:    0x22860d0, prev:    0x2286090, next:        (nil), val: test.
